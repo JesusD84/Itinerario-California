@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@400;700&display=swap');
+#lugaresInteres {
+    width: 100%;
+    background: url('img/california3.png') fixed;
+    background-size: cover !important;
+}
+
+#fondo {
+    height: 41rem;
+}
+
+#title {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+
+#title h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bloque {
+    width: 20rem;
+    height: 25rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 5px solid #007BFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.imagen {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: 50%;
+    background-size: cover !important;
+}
+
+.bloque:nth-of-type(1) .imagen {
+    background: url(img/goldenGate.jpeg);
+}
+
+.bloque:nth-of-type(2) .imagen {
+    background: url(img/parqueBalboa.jpg);
+}
+
+.bloque:nth-of-type(3) .imagen {
+    background: url(img/zooSanDiego.jpg);
+}
+
+.bloque:nth-of-type(4) .imagen {
+    background: url(img/seaWorld.jpg);
+}
+
+.bloque:nth-of-type(5) .imagen {
+    background: url(img/disneyland.jpg);
+}
+
+.bloque:nth-of-type(6) .imagen {
+    background: url(img/universal.jpg);
+}
+
+.bloque:nth-of-type(7) .imagen {
+    background: url(img/observatorio.jpg);
+}
+
+.bloque:nth-of-type(8) .imagen {
+    background: url(img/santaMonica.jpg);
+}
+
+.bloque:nth-of-type(9) .imagen {
+    background: url(img/hollywood.jpg);
+}
+
+.bloque:nth-of-type(10) .imagen {
+    background: url(img/alcatraz.jpg);
+}
+
+.bloque:nth-of-type(11) .imagen {
+    background: url(img/pier.jpg);
+}
+
+.bloque:nth-of-type(12) .imagen {
+    background: url(img/lombard.jpg);
+}
+
+.bloque:nth-of-type(13) .imagen {
+    background: url(img/bellasArtes.jpg);
+}
+
+.bloque:nth-of-type(14) .imagen {
+    background: url(img/damasPintadas.jpg);
+}
+
+.indicador {
+    background: #FFFFFF;
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 100%;
+    color: white; font-weight: bolder;
+    border: 3px solid #007BFF;
+    box-sizing: border-box;
+}
+
+#boton {
+    background: #007BFF;
+    border-radius: 4px;
+}
+
+#boton h1 {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 67px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    #fondo {
+        height: 34rem;
+    }
+    
+    .bloque {
+        width: 15rem;
+        height: 17rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+
+}

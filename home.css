@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@400;700&display=swap');
+a{
+  color: white;  
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#home {
+    width: 100%;
+    background: url('img/california1.png') fixed;
+    background-size: cover !important;
+}
+
+#title {
+    margin: 3rem 0;
+    height: 10rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+
+#title .display-3 {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#iniciar {
+    margin: 4rem 0;
+    height: 15rem;
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+
+#iniciar h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#iniciar .display-4 {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#iniciar .display-4:hover {
+    color: #7DA7C0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    #title {
+        margin: 3rem 0;
+        height: 8rem;
+    }
+    
+    #title .display-3 {
+        font-size: 1.5rem;
+    }
+    
+    #iniciar {
+        margin: 3rem 0;
+        height: 10rem;
+    }
+    
+    #iniciar h2 {
+        font-size: 1.2rem;
+    }
+    
+    #iniciar .display-4 {
+        font-size: 1.5rem;
+    }
+}

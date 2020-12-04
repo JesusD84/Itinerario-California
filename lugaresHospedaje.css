@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:wght@400;700&display=swap');
+#lugaresHospedaje {
+    width: 100%;
+    background: url('img/california4.png') fixed;
+    background-size: cover !important;
+}
+
+#fondo {
+    height: 41rem;
+}
+
+#title {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+
+#title h3 {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bloque {
+    width:50%;
+    height: 18rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 5px solid #007BFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: none;
+}
+
+.imagen {
+    border-radius: 23px 0px 0px 23px;
+    width: 100%;
+    height: 17.35rem;
+    background-size: cover !important;
+}
+
+.bloque:nth-of-type(1) .imagen {
+    background: url(img/sanDiegoHospedaje.JPG);
+}
+
+.bloque:nth-of-type(2) .imagen {
+    background: url(img/laHospedaje.JPG);
+}
+
+.bloque:nth-of-type(3) .imagen {
+    background: url(img/sanFranciscoHospedaje.JPG);
+}
+
+.ciudad {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.nombreHotel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.costo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.boton {
+    background: #007BFF;
+    border-radius: 4px;
+}
+
+.boton h1 {
+    font-family: Carter One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 67px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    #fondo {
+        height: 34rem;
+    }
+    
+    .bloque {
+        width: 15rem;
+        height: 17rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+}
